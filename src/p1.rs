@@ -1,8 +1,3 @@
-// If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
-
-// Find the sum of all the multiples of 3 or 5 below 1000.
-
-
 fn is_multiple(multiple: u32, divider: u32) -> bool {
     multiple % divider == 0
 }
@@ -24,6 +19,11 @@ fn sum_of_all_multiple_of_bellow(to: u32, array_of_divider: &[u32]) -> u32 {
         }
     }
     sum
+}
+
+pub fn problem() {
+    println!("If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.");
+    println!("Find the sum of all the multiples of 3 or 5 below 1000.");
 }
 
 pub fn solve() {
