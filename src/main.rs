@@ -1,8 +1,6 @@
-mod p1;
-mod p2;
-mod p3;
+mod p4;
 
 fn main() {
-    p3::problem();
-    p3::solve();
+    p4::problem();
+    p4::solve();
 }
