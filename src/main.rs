@@ -1,7 +1,8 @@
 mod p1;
 mod p2;
+mod p3;
 
 fn main() {
-    p2::problem();
-    p2::solve();
+    p3::problem();
+    p3::solve();
 }
