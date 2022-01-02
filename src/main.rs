@@ -1,6 +1,7 @@
-mod p6;
+mod p3;
+mod p7;
 
 fn main() {
-    p6::problem();
-    p6::solve();
+    p7::problem();
+    p7::solve();
 }

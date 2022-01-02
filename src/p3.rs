@@ -1,4 +1,4 @@
-fn is_prime(n: u64) -> bool {
+pub fn is_prime(n: u64) -> bool {
     if n == 2 {
         return true;
     }
